@@ -1,0 +1,32 @@
+# Jupyter Notebook checkpoints & runtime state
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# Python / virtual environments / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+conda-meta/
+
+# Word / LibreOffice temporary & lock files
+~$*.docx
+.~lock.*.docx#
+
+# OS & editor clutter
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local secrets / environment variables
+.env
+.env.*
+!.env.example
